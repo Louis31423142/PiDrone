@@ -3,6 +3,7 @@ import time
 from machine import Pin, time_pulse_us
 import math
 import ibus
+from mpu6050 import MPU6050
 
 # Motor GPIO's 
 gpio_motor1 = 6  # front left, clockwise
